@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite-TestGrid]">
+  <test thread-count="5" name="ChromeInternalGridTesting(failed)">
+    <classes>
+      <class name="com.grid.testing.SeleniumGridChromeTest">
+        <methods>
+          <include name="addTest"/>
+          <include name="initializeTest"/>
+          <include name="finalizeTest"/>
+        </methods>
+      </class> <!-- com.grid.testing.SeleniumGridChromeTest -->
+    </classes>
+  </test> <!-- ChromeInternalGridTesting(failed) -->
+</suite> <!-- Failed suite [Suite-TestGrid] -->
